@@ -1,0 +1,16 @@
+<xf:if contentcheck="true">
+	<a class="p-staffBar-link menuTrigger" data-xf-click="menu" data-xf-key="alt+m" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">{{ phrase('staff_tools') }}</a>
+	<div class="menu" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">{{ phrase('staff_tools') }}</h4>
+			<xf:contentcheck>
+				<xf:if is="$xf.visitor.is_moderator">
+					<a href="{{ phrase('slack_invite') }}" class="menu-linkRow">{{ phrase('join_slack') }}</a>
+				</xf:if>
+				<xf:if is="$xf.visitor.is_moderator">
+					<a href="{{ phrase('slack_workspace_url') }}" class="menu-linkRow">{{ phrase('slack_workspace') }}</a>
+				</xf:if>
+			</xf:contentcheck>
+		</div>
+	</div>
+</xf:if>

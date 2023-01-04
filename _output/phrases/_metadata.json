@@ -1,0 +1,32 @@
+{
+    "join_slack.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1d5e8d66a451239d956aa635ff59f100"
+    },
+    "slack_invite.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f555053202cce8eb615268871bd75bc3"
+    },
+    "slack_workspace.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "827dce9d88c96fe37210c262ec9fb9bb"
+    },
+    "slack_workspace_url.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f555053202cce8eb615268871bd75bc3"
+    },
+    "staff_tools.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "64cc6ae0cc062776e3211b438b748da2"
+    }
+}

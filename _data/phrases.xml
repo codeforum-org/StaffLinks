@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="join_slack" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Join Slack]]></phrase>
+  <phrase title="slack_invite" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Enter URL here]]></phrase>
+  <phrase title="slack_workspace" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Slack Workspace]]></phrase>
+  <phrase title="slack_workspace_url" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Enter URL here]]></phrase>
+  <phrase title="staff_tools" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Staff Tools]]></phrase>
+</phrases>

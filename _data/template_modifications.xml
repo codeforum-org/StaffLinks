@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="insert_staff_links_code" description="Inserts code required to displayed staff links." execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[				<xf:if is="$xf.visitor.is_admin">
+					<a href="{{ base_url('admin.php') }}" class="p-staffBar-link" target="_blank">{{ phrase('admin') }}</a>
+				</xf:if>]]></find>
+    <replace><![CDATA[				<xf:include template="stafflinks_code_insert" />
+				$0]]></replace>
+  </modification>
+</template_modifications>
